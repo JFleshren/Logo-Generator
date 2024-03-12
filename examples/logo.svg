@@ -1,0 +1,4 @@
+<svg width="300" height="200">
+        <polygon points="150, 20 270, 180 30, 180" fill="red" />
+        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="purple">asd</text>
+      </svg>
