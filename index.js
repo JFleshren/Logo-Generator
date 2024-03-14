@@ -54,8 +54,12 @@ function generateSVG(shape, shapeColor, text, textColor) {
     default:
       throw new Error('Invalid shape');
   }
-  return svgContent;
-}
+    svgContent = `<?xml version="1.0" encoding="UTF-8"?>
+  <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  ${svgContent}
+  </svg>`;
+    return svgContent;
+  }
 
 async function main() {
   try {
